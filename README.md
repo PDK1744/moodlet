@@ -1,7 +1,7 @@
 # Moodlet
 
 
-Moodlet is a web application that allows users to track their daily mood. With a simple and intuitive interface, users can easily log their emotions and monitor their mental well-being over time.
+Moodlet is a web application that allows users to track their daily mood. With a simple and intuitive interface, users can easily log their emotions and monitor their mental well-being over time. Give it a shot at https://moodlet.netlify.app/
 
 ## Features
 Track your daily mood with a simple and easy-to-use interface
