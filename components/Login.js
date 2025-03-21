@@ -80,7 +80,7 @@ export default function Login() {
         type="password"
       ></input>
       <div className="max-w-[400px] w-full mx-auto">
-        <Button clickHandler={handleSubmit} text={authenticating ? 'Submitting...' : 'Submit'} full />
+        <Button clickHandler={handleSubmit} onKeyDown={(e) => {if (e.key === 'Enter') handleSubmit()}} text={authenticating ? 'Submitting...' : 'Submit'} full />
       </div>
       <p className="text-center">
         {isRegister ? 'Already have an account? ' : "Don\'t have an account? "}

@@ -1,6 +1,6 @@
 const config = {
-  plugins: [
-    require('@tailwindcss/postcss')({
+  plugins: {
+    "@tailwindcss/postcss": {
       config: {
         theme: {
           extend: {
@@ -21,8 +21,7 @@ const config = {
           },
         },
       },
-    }),
-  ],
+    },
+  },
 };
-
 export default config;
